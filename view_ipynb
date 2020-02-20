@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Viewing $*
+python3 "/home/art/Dropbox/Programming/notebook_viewer/view_ipynb.py" "$*" | less -r
