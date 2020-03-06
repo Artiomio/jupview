@@ -59,7 +59,8 @@ def limit_python_source_lines(source: str, max_len) -> str:
 
 
 
-with open(sys.argv[1], "r", encoding="utf8") as f:
+file_name = sys.argv[1]
+with open(file_name, "r", encoding="utf8") as f:
     j = json.load(f)
 
 terminal_formatter = TerminalFormatter()
@@ -70,6 +71,8 @@ python_lexer = PythonLexer()
 
 MAX_SYMB_IN_LINE = 80
 
+
+print(f"Viewing {file_name}:\n")
 for code in j["cells"]:
     source = "".join(code["source"])
     if not source.replace("\n", "").replace(" ", ""):
