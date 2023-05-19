@@ -1,5 +1,5 @@
-# Simplistic terminal jupyter notebook viewer
-# Jupview
+# Jupview, a simplistic terminal jupyter notebook viewer
+
 
 Jupview is a terminal-based Jupyter notebook viewer that allows you to view the contents of Jupyter notebooks in the terminal without the need to launch a browser.
 
