@@ -32,6 +32,4 @@ To open a Jupyter notebook using Jupview, simply run the following command:
 
 jupview <path to .ipynb file>
 
-This will open the .ipynb file in the terminal where you can view its contents and interact with cells using the keyboard.
-
 This will open the notebook in the terminal, displaying the content with syntax highlighting. You can navigate the notebook using the arrow keys. To exit the viewer, simply press 'q'.
